@@ -1,6 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+it uses model text-davinchi 3 and you need to use the api key on the open ai web , example on the .env file : OPENAI_API_KEY='string key goes here'
+
+stack used :
+
+-NextJS 13 (it using appDir feature) just for learning purpose
+-openai npm module
+-tailwind css
+-axios (for fetch request)
+
 ## Getting Started
+
+Please don't forget to run npm install before u start the dev server
+and ... dunno if u forget .... .env file dont go to github repo so u must make ur own
 
 First, run the development server:
 
